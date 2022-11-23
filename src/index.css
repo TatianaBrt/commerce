@@ -5,9 +5,158 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: beige;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.text{
+  margin-top: 35px;
+  height: 100%;
+}
+
+ header ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content:space-evenly;
+   }
+  a{text-decoration: none;
+  color: white;}
+header .logo{
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bolder;
+}
+header .navBar{
+padding: 10px;
+margin-right: 10px;
+}
+header .nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+background-color: cadetblue;
+}
+header .presentation{
+  background: url('./img/furniture1.jpg');
+  margin:60px 0;
+    width: 100%;
+  height: 450px;
+background-size: cover;
+background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: darkgray;
+  position: relative;
+}
+header .presentation::after{
+  content: 'The best furniture for your home';
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 350px;
+  font-weight: 600;
+  font-size: 40px;
+color: white;
+}
+footer{
+  text-align: center;
+  margin-top: 10px;
+}
+main{
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main .item{
+  width: 25%;
+  margin-bottom: 50px;
+  background: gray;
+  position: relative;
+  padding-bottom: 10px;
+}
+main .item img{
+  width: 100%;
+}
+main h2,
+main p,
+main b{
+  margin:10px 20px;
+}
+main b{
+  color: brown;
+  font-size: 25px;
+}
+main .add-to-cart{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: red;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: aliceblue;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 500ms ease;
+}
+main .add-to-cart:hover{
+  transform: scale(1.5) translateY(-5px)
+}
+.About{
+  text-align: center;
+  padding: 100px;
+}
+.textC{
+  text-align: center;
+  margin-top: 100px;
+  
+}
+.textA{
+  font-size: 25px;
+}
+.textH{
+  font-size: 35px;
+}
+.wish{
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 500ms ease;
+}
+.wish:hover,
+.wish.active
+{
+  color: green;
+}
+header{
+  position: relative;
+}
+.shop-cart{
+  position: absolute;
+ top: 30px;
+ right: 0;
+ width: 450px;
+ background:rosybrown;
+z-index: 1000;
+}
+.shop-cart .item{
+  width: 100%;
+  font-size: 10px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.shop-cart .item img{
+  width: 90px;
+  float: left;
+  margin-right: 20px;
 }
