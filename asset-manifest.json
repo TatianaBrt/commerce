@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/commerce/static/css/main.1135bbb5.css",
+    "main.js": "/commerce/static/js/main.399eca77.js",
+    "static/js/787.8cdd6495.chunk.js": "/commerce/static/js/787.8cdd6495.chunk.js",
+    "static/media/furniture1.jpg": "/commerce/static/media/furniture1.df6c2a3d67b07146b170.jpg",
+    "index.html": "/commerce/index.html",
+    "main.1135bbb5.css.map": "/commerce/static/css/main.1135bbb5.css.map",
+    "main.399eca77.js.map": "/commerce/static/js/main.399eca77.js.map",
+    "787.8cdd6495.chunk.js.map": "/commerce/static/js/787.8cdd6495.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1135bbb5.css",
+    "static/js/main.399eca77.js"
+  ]
+}
